@@ -1,0 +1,154 @@
+html {
+    background-color: #f2f2f2;
+}
+
+h1 {
+    font-family: 'Libre Baskerville', serif;
+    color: #3c5375;
+    margin-bottom: 2px;
+}
+
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+p  {
+    font-family: 'Bitter', serif;
+    color: #3c5375;
+}
+
+#subHeader {
+    margin-top: 2px;
+    font-family: 'Bitter', serif;
+    color: #3c5375;
+    margin-bottom: 35px;
+}
+
+.nav-wrapper {
+    background-color: #3c5375;
+}
+
+.page-footer {
+    background-color: #3c5375;
+}
+
+#titleBox {
+    background-image: url("../images/bicycle.jpg");
+    background-size: cover;
+    height: 550px;
+    background-color: #bfae84;
+    font: white;
+    margin-bottom: 30px;
+}
+
+#titleText {
+    opacity: .9;
+    background-color: #dad5ca;
+    height: 500px;
+    margin-top: 25px;
+}
+
+#mapDisplay {
+    height: 100%;
+}
+
+#map {
+    height: 500px;
+}
+
+.hide {
+    display: none;
+}
+
+#reviewForm {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.star {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: #dad5ca;
+    margin: 3px;
+    border-radius: 50%
+}
+
+.active2 {
+    background-color: #CC0;
+}
+
+#icon {
+    width: 96px;
+    height: 100%;
+}
+
+#titlePar {
+    color: white;
+}
+
+#topHeader {
+    text-align: center;
+    padding: 50px;
+    background-image: url("../images/bikingpic.jpg");
+    height: 450px;
+    background-size: cover;
+    background-color: #bfae84;
+
+}
+
+#topReviewHeader {
+    text-align: center;
+    padding: 50px;
+    background-image: url("../images/reviewHeader.jpg");
+    height: 450px;
+    background-size: cover;
+    background-color: #bfae84;
+
+}
+
+#card {
+    height: 200px;
+    background-color: transparent;
+    padding: 50px;
+    color: white;
+}
+
+#textHeader, h5 {
+    font-family: 'Libre Baskerville', serif;
+    color: white;
+}
+
+.populatedCard {
+    background-color:#bda29e;
+    height: 85px;
+}
+
+#weatherDisplay {
+    font-size: 2.5em;
+    font-family: 'Bitter', serif;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+#weatherIcon, #weatherType {
+    color: white;
+    font-size: 1em;
+}
+
+#latestReview {
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+input:invalid {
+    border: 2px dashed red;
+  }
